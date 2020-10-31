@@ -1,0 +1,6 @@
+a = int(input())
+x = set(map(int, input().split()))
+b = int(input())
+y = set(map(int, input().split()))
+res = x.symmetric_difference(y)
+print(len(res))
